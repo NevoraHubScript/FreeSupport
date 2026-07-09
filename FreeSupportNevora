@@ -1,0 +1,12 @@
+local Games = {
+    [74442575449267] = "https://raw.githubusercontent.com/NevoraHubScript/Idk/refs/heads/main/Throw",
+    [79102003750116] = "https://raw.githubusercontent.com/NevoraHubScript/Idk/refs/heads/main/Yeet",
+}
+
+local ScriptURL = Games[game.PlaceId]
+
+if ScriptURL then
+    loadstring(game:HttpGet(ScriptURL))()
+else
+    game:GetService("Players").LocalPlayer:Kick("❌ Game ini tidak didukung.")
+end
