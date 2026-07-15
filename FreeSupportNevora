@@ -2,6 +2,7 @@ local Games = {
     [74442575449267] = "https://raw.githubusercontent.com/NevoraHubScript/Idk/refs/heads/main/Throw",
     [79102003750116] = "https://raw.githubusercontent.com/NevoraHubScript/Idk/refs/heads/main/Yeet",
     [131085226471853] = "https://pastebin.com/raw/YgSzq0tj",
+    [86368783421928] = "https://raw.githubusercontent.com/NevoraHubScript/Idk/refs/heads/main/FallFuckYouNinggaNiger",
 }
 
 local ScriptURL = Games[game.PlaceId]
